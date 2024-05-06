@@ -55,7 +55,7 @@ idade_pessoa = ctk.CTkEntry(frame,font=fonteEntry,fg_color=fgEntry,width=entrywi
 idade_pessoa.place(x=32,y = 288)
 
 
-ctk.CTkLabel(frame,font=fonteLabel,text='ALTURA',text_color=cFonte).place(x = 32 ,y = 384)
+ctk.CTkLabel(frame,font=fonteLabel,text='ALTURA',text_color=cFonte,bg_color="transparent")place(x = 32 ,y = 384)
 
 altura = ctk.CTkEntry(frame,font=fonteEntry,fg_color=fgEntry,width=entrywidth,height=entryheight
                            ,text_color=cFonte)
